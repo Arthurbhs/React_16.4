@@ -1,4 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import GoodMorning from './component/GoodMorning';
 
-ReactDOM.render(<h1>React</h1>, document.getElementById('root'))
+
+ReactDOM.render(<GoodMorning name="Art"/>, document.getElementById('root'))
